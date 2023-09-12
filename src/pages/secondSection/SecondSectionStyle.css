@@ -1,0 +1,101 @@
+.secondSectionContainer {
+  padding: 3% 10% 0px 10%;
+  text-align: center;
+}
+
+.secondSectionContainer .subText {
+  font-size: 12px;
+}
+.hoverIconBorder {
+  margin-bottom: 30%;
+}
+.hoverIconBorder:hover{
+    border: 3px solid skyblue;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23%;
+}
+.icons {
+  font-size: 3rem;
+
+}
+
+.hoverIconBorder:hover .icons{
+    font-size: 3rem;
+  background-color: skyblue;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+}
+.headingText{
+  padding-top: 7%;
+}
+.headingText p{
+  font-size: 14px;
+}
+.boxContainer{
+  padding-top: 4%;
+
+}
+.mainHeader .boxContainer{
+  background-color: aquamarine;
+}
+.fourBorder{
+
+  border: 1px solid rgb(216, 208, 208);
+  height: 130px;
+  width: 180px;
+  background-color: rgb(207, 194, 194);
+  
+}
+.hiddenIcon{
+  display: none;
+}
+
+.fourBorder:hover .hiddenIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  height: 130px;
+  background-color: rgb(150, 142, 142);
+}
+.fileInput{
+  display: none;
+}
+.previewImg{
+  height: 130px;
+  width: 180px;
+}
+
+.roundedBox{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: rgb(219, 215, 215);
+  margin-bottom: 6%;
+  margin-left:13%;
+}
+
+.roundedBox i{
+  position: relative;
+  top: 66%;
+  left: 30%;
+  height: 50px;
+  display: inline-block;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 35px;
+  background-color: skyblue;
+  
+}
+
+.roundedBoxContainer{
+  margin-top: 10%;
+}

@@ -1,0 +1,28 @@
+.videoContainer{
+    background-color: rgb(48, 45, 45);
+    padding: 2% 10%;
+    margin-top: 4%;
+}
+.videoText{
+    padding-left: 7%;
+    color: white;
+}
+
+.videoButton{
+    border-radius: 10px;
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    padding: 2% 3%;
+}
+
+.logoPartners{
+    padding: 7% 10% 0px 10%;
+}
+.logo{
+    padding-left: 7%;
+}
+.firstLogo{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}

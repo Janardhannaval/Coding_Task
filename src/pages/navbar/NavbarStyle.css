@@ -1,0 +1,40 @@
+.navbarBackColor{
+   background-color: rgb(141, 168, 160);
+  padding: 0px;
+}
+.navbarBackColor .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.navbarBackColor a{
+    color: white;
+}
+.navbarBackColor .navbar,.carouselContainer{
+    padding: 0px 10%;
+}
+.lineDivider{
+    height: 2px;
+    width: 81.6%;
+    margin: 0px 9% ;
+    background-color: white;
+}
+.imgHeight{
+    height: 400px;
+}
+
+.carouselContainer{
+    padding-top: 5%;
+}
+.carouselFooter{
+    background-color: rgb(48, 46, 46);
+    text-align: center;
+    padding: 1% 0px;
+    color: white;
+}
+.carouselFooter .bigText{
+    margin-bottom: -1px;
+}
+.carouselFooter p{
+    font-size: 14px;
+}

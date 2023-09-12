@@ -1,0 +1,40 @@
+.footerSection {
+  background-color: rgb(48, 45, 45);
+ 
+  margin-top: 5.3%;
+}
+.footerSection .head{
+    padding: 4% 10%;
+}
+.footerSection .lineDivider {
+  height: 2px;
+  width: 25%;
+  /* margin: 0px 9% ; */
+  background-color: rgb(214, 214, 214);
+  margin-top: 6%;
+}
+.footerHeader {
+  display: flex;
+  color: white;
+  padding-bottom: 2%;
+}
+
+.footerSection p {
+  color: gray;
+}
+.address {
+  display: flex;
+  gap: 4%;
+}
+.socialMediaIcon{
+    color: skyblue;
+    font-size: 2rem;
+    padding-left: 3%;
+}
+.footerButton{
+    background-color: skyblue;
+    padding: 1% 0px;
+    text-align: center;
+    border: 1px solid skyblue;
+    width: 100%;
+}
