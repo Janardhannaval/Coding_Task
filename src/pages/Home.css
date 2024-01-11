@@ -1,0 +1,39 @@
+.parent {
+  width: 100%;
+}
+.header {
+  display: flex;
+  /* width: 1920px; */
+  width: 100%;
+  /* padding: 14px 300px; */
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #272343;
+  color: white;
+  padding-top: 14px;
+}
+
+.header-part {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product-list{
+    padding: 10px 60px;
+    text-align: center;
+}
+.product-list ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+}

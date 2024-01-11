@@ -1,0 +1,15 @@
+.footer-container{
+    margin: 50px 80px;
+}
+.s-button{
+    background-color: #029FAE;
+    padding: 8px 24px;
+    border: 1px solid #029FAE;
+    color: white;
+    border-radius: 10px;
+}
+.end-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

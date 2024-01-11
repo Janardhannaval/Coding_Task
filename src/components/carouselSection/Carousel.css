@@ -1,0 +1,57 @@
+.chair-img {
+  /* position: relative; */
+  position: absolute;
+  z-index: 100;
+  height: 100%;
+  width: 250px;
+  object-fit: contain;
+  right: 180px;
+  top: -60px;
+}
+.circle-img {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 430px;
+  object-fit: contain;
+  right: 100px;
+  top: -144px;
+}
+.text-of-carousel{
+    padding:  7rem 0px 0rem 11rem;
+    width:600px;
+}
+
+.back-img{
+    display: flex;
+}
+
+.button-shop-now{
+    padding: 8px 24px;
+    border: 1px solid #029FAE;
+    border-radius: 8px;
+    color: white;
+    background-color: #029FAE;
+}
+
+@media(max-width:1050px){
+    .back-img{
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        /* background: red  !important; */
+    }
+    .text-of-carousel{
+        padding-top: 0px ;
+    }
+    .chair-img {
+        position: relative;
+        top: 30px;
+        left: 15px;
+      }
+      .circle-img {
+        /* position: relative; */
+        top: 110px;
+        left: 200px;
+      }
+}
